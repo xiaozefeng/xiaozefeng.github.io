@@ -1,11 +1,11 @@
 # mickey's 博客
 
-[Spring Boot 自动配置原理](/blog/springboot-autoconfigure)
+[Spring Boot 自动配置原理](/blogs/springboot-autoconfigure)
 
-[自制starter](/blog/customize-starter)
+[自制starter](/blogs/customize-starter)
 
-[EnableXX 原理](/blog/springboot-enbalexxx)
+[EnableXX 原理](/blogs/springboot-enbalexxx)
 
-[Maven总结](/blog/maven)
+[Maven总结](/blogs/maven)
 
-[HashMap](/blog/hashmap)
+[HashMap](/blogs/hashmap)
