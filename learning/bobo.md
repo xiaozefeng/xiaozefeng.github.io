@@ -1,5 +1,9 @@
 # 学习
 
+转自 [波波老师的文章-如果高效学习有什么秘诀的话，那就都在这里了](https://mp.weixin.qq.com/s?__biz=MzU4NTIxODYwMQ==&mid=2247483836&idx=1&sn=90854aa76507281403e4dd9cd434a12b&chksm=fd8caefacafb27ec78f999fde4f1217c04c6e2ff28cf51fe511d8fa29d484d9281ff91de8c9c&token=88683563&lang=zh_CN#rd)  ,  [天生不聪明](https://mp.weixin.qq.com/s?__biz=MzU4NTIxODYwMQ==&mid=2247483856&idx=1&sn=47a72cee1190aefc06c24fea78f78484&chksm=fd8cae96cafb2780f2634bbeece1608f321ea2698523869ff6d0c58497ad2dfbf5fa1233b0dd&token=88683563&lang=zh_CN#rd)
+
+
+
 > 我不认为有一种固定的“好”的学习方法是适合所有同学。如果存在那样的方法的话，学习这件让人头疼的事儿，就不头疼了
 
 
