@@ -26,3 +26,4 @@
 
 ##### [学习方法论](/learning/index)
 
+##### [Golang](/languages/go/index)
