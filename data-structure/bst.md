@@ -406,6 +406,7 @@ private Node remove(Node node, E e) {
         node.right = remove(node.right, e);
         return node;
     } else {  // e == node.e
+      //左子树为空
         if (node.left == null) {
             Node rightNode = node.right;
             node.right = null;
@@ -413,6 +414,7 @@ private Node remove(Node node, E e) {
             return rightNode;
         }
 
+      // 右子树为空
         if (node.right == null) {
             Node leftNode = node.left;
             node.left = null;
@@ -426,7 +428,6 @@ private Node remove(Node node, E e) {
         successor.left = node.left;
 
         node.left = node.right = null;
-
         return successor;
     }
 
@@ -451,4 +452,15 @@ private Node remove(Node node, E e) {
 
 我们拿到 28的后继 `successor` 之后, 把  `successor .right = removeMinimum(28.的右子树)` 这样就将 原来节点的右子树挂接到了 `successor`的右子树上了， `successor.left = node.left` 就将原来节点的左子树也挂接到 `successor`上了
 
-删除指定元素逻辑是最复杂的一部分了，最好是通过debug多调试调试。
+
+
+## 待续
+
+### rank
+
+### select
+
+### ceil
+
+### floor
+
