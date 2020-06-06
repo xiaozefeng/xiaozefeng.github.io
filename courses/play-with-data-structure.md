@@ -146,6 +146,42 @@ for (int i = front; i != tail; i = (i + 1) % data.length) {
 
 
 
+## 递归
+
+本质上，将原来的问题，转行为更小的同一问题。
+
+### 例子
+
+利用递归 数组求和
+
+
+
+![](../images/play-data-structure/sum.png)
+
+
+
+```java
+public int sum(int[] arr) {
+  return sum(arr, 0);
+}
+
+// 求 [leftIndex,arr.length)之间的和
+private int sum(int[] arr, int leftIndex) {
+  if (leftIndex == arr.length) {
+    return 0;
+  }
+  return arr[leftIndex] + sum(arr, leftIndex + 1);
+}
+```
+
+如果不理解可以转换成普通的函数调用
+
+### 编写递归逻辑的要领
+
+1. 求解最基本的问题 (递归终止的条件)
+2. 把原问题转换成更小的同一问题
+3. 注意递归函数的宏观语义
+4. 递归函数就是一个函数，完成一个功能
 
 
 
@@ -153,8 +189,15 @@ for (int i = front; i != tail; i = (i + 1) % data.length) {
 
 
 
+## 树 Tree
+
+### 二叉树
+
+#### 前，中，后 序遍历
 
 
 
+### 深度优先遍历
 
+### 广度优先遍历
 
