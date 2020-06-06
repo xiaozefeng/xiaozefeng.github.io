@@ -1,6 +1,6 @@
 # Mickey's 博客
 
-[数据结构](/data-structure/index)
+##### [数据结构](/data-structure/index)
 
 ##### [面试题总结](/interview)
 
