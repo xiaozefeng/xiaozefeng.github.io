@@ -137,7 +137,7 @@ public boolean contains(Node node, E e) {
 
 如果递归到，`e.compareTo(node.e) `说明找到了， 返回true， 其他条件就继续在左子树 或 右子树中递归查找。
 
-
+## 深度优先遍历
 
 ### 二分搜索树的前序遍历
 
@@ -241,10 +241,6 @@ private void postOrder(Node root, Consumer<E> c) {
     c.accept(root.e);
 }
 ```
-
-### 深度优先遍历
-
-前序遍历， 中序遍历，后序遍历都是 深度优先遍历
 
 
 
