@@ -2,6 +2,8 @@
 
 ##### [数据结构](/data-structure/index "数据结构")
 
+##### [算法](/algorithm/index)
+
 ##### [面试题总结](/interview "面试题总结")
 
 ##### [个人Blog](/blog "个人博客")
