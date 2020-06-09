@@ -464,4 +464,4 @@ private Node remove(Node node, E e) {
 
 ---
 
-[https://github.com/xiaozefeng/data-structures/blob/master/src/main/java/org/mickey/data/structure/tree/BST.java](https://github.com/xiaozefeng/data-structures/blob/master/src/main/java/org/mickey/data/structure/tree/BST.java)
+完整代码: [https://github.com/xiaozefeng/data-structures/blob/master/src/main/java/org/mickey/data/structure/tree/BST.java](https://github.com/xiaozefeng/data-structures/blob/master/src/main/java/org/mickey/data/structure/tree/BST.java)
