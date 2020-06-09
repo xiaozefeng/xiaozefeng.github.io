@@ -16,3 +16,5 @@
 
 ##### [用链表和二分搜索树创建的Set性能差距有多大？](/data-structure/linkedlistset-treeset-difference)
 
+##### [如何创建一个属于自己的二叉堆?](/data-structure/heap)
+
