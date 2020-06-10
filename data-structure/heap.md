@@ -196,9 +196,42 @@ public E replace(E e) {
 
 ## Heapify
 
+`Heapify` 要做的时间其实就是`将任意数组转换成二叉堆`, 很自然的一个想法就是 `将数组中的元素使用 二叉堆的 add方法 一个一个添加到二叉堆中`
+
+这样是可以实现的，不过有一个更快的方式，这个过程通常称之为 `heapify`
+
+我们这里的二叉堆使用数组实现的，那我们可以把数组中的元素直接放到数组中, 比如是这样的
+
+![](../images/play-data-structure/heapify1.png)
+
+这个数组的元素是 `[15,17,19,13,22,16,28,30,41,62]` ，但是此时的数组是不满足最大堆的性质的；即每个节点的值都大于其孩子节点的值。
+
+所以需要调整元素的位置，让其满足二叉堆的性质。调整方法就是 `找到最后一个非叶子节点，对这个节点以及其前面的节点做 SiftDown()`
+
+### 那么为什么要找到最后一个非叶子节点做 SiftDown 呢？
+
+因为叶子节点没有孩子节点了，不需要做 SiftDown。
+
+### 那么怎么找到最后一个非叶子节点呢？
+
+通过上面的图可以看出来，`最后一个节点的父亲节点就是最后一个非叶子节点`, 还记得我们定义过一个 `parent(int index)`方法吗？ 可以通过 `parent(data.getSize() -1)` 就能拿到最后一个非叶子节点的索引
+
+找到这个节点后，对这个节点已经其前面的节点不断做 `SiftDown`, 最后整个数组就满足二叉堆的性质了。
 
 
----
+
+```java
+public MaxHeap(E[] arr) {
+    if (arr == null || arr.length == 0)
+        throw new IllegalArgumentException("arr is null");
+
+    data = new Array<>(arr);
+    for (int i = parent(arr.length - 1); i >= 0; i--)
+        siftDown(i);
+}
+```
+
+在代码中，我们通过构造函数来完成 `Heapify`的过程
 
 
 
