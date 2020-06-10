@@ -172,7 +172,35 @@ private void siftDown(int k) {
 }
 ```
 
+
+
+## Replace
+
+replace 的过程就是取出堆的最大元素，放入一个新的元素
+
+我们自然而然就可以想到，可以先调用  `extraMax()`取出最大元素，再调用 `add(E e )`方法放入一个元素；不过整个 `replace`方法的时间复杂度就是 `两次O(logn)` 
+
+还有另外一种实现是：可以直接将最大元素替换成要添加的元素，再对这个堆顶的元素做 `SiftDown`操作；这样一来，只有一个 `O(logn)`的操作。
+
+```java
+// 取出堆的最大值，再添加元素e
+public E replace(E e) {
+    E ret = findMax();
+    data.set(0, e);
+    siftDown(0);
+    return ret;
+}
+```
+
+对应代码中，就是将数组中索引为0的元素替换成新的元素，然后对索引为0的元素做一次 `SiftDown`
+
+## Heapify
+
+
+
 ---
+
+
 
 完整代码: [MaxHeap](https://github.com/xiaozefeng/data-structures/blob/master/src/main/java/org/mickey/data/structure/heap/MaxHeap.java)
 
