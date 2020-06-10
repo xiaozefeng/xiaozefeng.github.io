@@ -20,7 +20,7 @@
 
 ### 内存结构
 
-![](../images/play-data-structure/arrr-insert1.png)
+![](../images/play-data-structure/array-ins1.png)
 
 ### 定义类和成员变量
 
