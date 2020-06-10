@@ -214,6 +214,8 @@ public E replace(E e) {
 
 ### 那么怎么找到最后一个非叶子节点呢？
 
+![](../images/play-data-structure/heapify2.png)
+
 通过上面的图可以看出来，`最后一个节点的父亲节点就是最后一个非叶子节点`, 还记得我们定义过一个 `parent(int index)`方法吗？ 可以通过 `parent(data.getSize() -1)` 就能拿到最后一个非叶子节点的索引
 
 找到这个节点后，对这个节点已经其前面的节点不断做 `SiftDown`, 最后整个数组就满足二叉堆的性质了。
