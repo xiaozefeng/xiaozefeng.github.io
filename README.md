@@ -4,6 +4,8 @@
 
 ##### [算法](/algorithm/index)
 
+##### [工具](/tools/index)
+
 ##### [面试题总结](/interview "面试题总结")
 
 ##### [个人Blog](/blog "个人博客")
@@ -19,8 +21,6 @@
 ##### [遇到的问题](/problem "遇到的问题")
 
 ##### [Java Snippets](/snippets/index.md "代码片段")
-
-##### [IDEA](/idea/readme.md "idea")
 
 ##### [书单](/booklist/index "技术书单")
 
