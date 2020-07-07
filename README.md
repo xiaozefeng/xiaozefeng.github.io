@@ -2,6 +2,8 @@
 ##### [数据结构](/data-structure/index "数据结构")
 ##### [个人Blog](/blog "个人博客")
 ##### [Java Snippets](/snippets/index.md "代码片段")
+##### [工具](/tools/index)
+
 <!--
 
 ##### [数据结构](/data-structure/index "数据结构")
