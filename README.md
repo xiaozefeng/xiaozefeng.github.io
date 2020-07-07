@@ -1,4 +1,8 @@
 # Mickey's 博客
+##### [数据结构](/data-structure/index "数据结构")
+##### [个人Blog](/blog "个人博客")
+##### [Java Snippets](/snippets/index.md "代码片段")
+<!--
 
 ##### [数据结构](/data-structure/index "数据结构")
 
@@ -30,4 +34,4 @@
 
 ##### [学习方法论](/learning/index "学习方法")
 
-##### [Golang](/languages/go/index "golang")
+ ##### [Golang](/languages/go/index) -->
