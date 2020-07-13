@@ -181,3 +181,10 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
 
 这种情况下，需要在入参处 加入 @Param("search"), 然后再 xml 文件中通过， #{search.keyword} 来获取参数的值
 
+
+
+
+
+### AES 同一个秘钥加密解密有问题
+
+需要替换jar包

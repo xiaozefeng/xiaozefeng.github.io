@@ -4,17 +4,9 @@
 ##### [Java Snippets](/snippets/index.md "代码片段")
 ##### [工具](/tools/index)
 
-<!--
-
-##### [数据结构](/data-structure/index "数据结构")
-
 ##### [算法](/algorithm/index)
 
-##### [工具](/tools/index)
-
 ##### [面试题总结](/interview "面试题总结")
-
-##### [个人Blog](/blog "个人博客")
 
 ##### [各种demo](/demo/index "各种demo")
 
@@ -26,8 +18,6 @@
 
 ##### [遇到的问题](/problem "遇到的问题")
 
-##### [Java Snippets](/snippets/index.md "代码片段")
-
 ##### [书单](/booklist/index "技术书单")
 
 ##### [面试](/interview-others "Java面试")
@@ -36,4 +26,4 @@
 
 ##### [学习方法论](/learning/index "学习方法")
 
- ##### [Golang](/languages/go/index) -->
+ ##### [Golang](/languages/go/index)
