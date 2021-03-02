@@ -1,14 +1,12 @@
-# Mickey's 博客
 ##### [数据结构](/data-structure/index "数据结构")
-##### [个人Blog](/blog "个人博客")
-##### [Java Snippets](/snippets/index.md "代码片段")
+##### [随想](/blog "个人博客")
+
 ##### [工具](/tools/index)
 
 ##### [算法](/algorithm/index)
 
 ##### [面试题总结](/interview "面试题总结")
 
-##### [各种demo](/demo/index "各种demo")
 
 ##### [读书笔记](/readbook/readme  "读书笔记")
 
@@ -21,9 +19,3 @@
 ##### [书单](/booklist/index "技术书单")
 
 ##### [面试](/interview-others "Java面试")
-
-##### [课程学习](/courses/index "课程学习")
-
-##### [学习方法论](/learning/index "学习方法")
-
- ##### [Golang](/languages/go/index)
