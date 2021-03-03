@@ -63,7 +63,7 @@ server1-> `~/mysql/server1/my.cnf`
 bind-address = 127.0.0.1
 port = 3316
 server_id = 1
-datadir = ~/mysql/server1/data
+datadir = /Users/{YOUR_USERNAME}/mysql/server1/data
 socket = /tmp/mysql3316.sock
 
 sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
@@ -80,7 +80,7 @@ server2 ->`~/mysql/server2/my.cnf`
 bind-address = 127.0.0.1
 port = 3326
 server_id = 2
-datadir = ~/mysql/server2/data
+datadir = /Users/{YOUR_USERNAME}/mysql/server2/data
 socket = /tmp/mysql3326.sock
 
 sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
