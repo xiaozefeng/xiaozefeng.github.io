@@ -1,5 +1,5 @@
 ##### [数据结构](/data-structure/index "数据结构")
-##### [MySQL](/mysql/index)
+##### [MySQL](/mysql/README.md)
 ##### [随想](/blog "个人博客")
 
 ##### [工具](/tools/index)
